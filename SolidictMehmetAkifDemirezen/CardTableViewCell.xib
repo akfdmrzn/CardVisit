@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="264" id="KGk-i7-Jjw" customClass="CardTableViewCell" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="717" height="264"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="717" height="264"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cellbakcground" translatesAutoresizingMaskIntoConstraints="NO" id="GCE-qb-euF">
+                        <rect key="frame" x="0.0" y="0.0" width="717" height="263.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0551 202 67 19" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umU-Yh-OZ7" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="395" y="169" width="286.5" height="35.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="NO"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İstanbul Cd. no 5 d - 13 Bakırköy / İstanbul" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbr-Ip-Thk" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="395" y="118" width="286.5" height="51"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="NO"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Konuşarak Öğren" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjI-RV-ZZA" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="394.5" y="92.5" width="286.5" height="25.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer Engineer" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDg-eG-fOG" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="394.5" y="58.5" width="286.5" height="31.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.55859375" blue="0.14196325230000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="T7U-cm-taC">
+                        <rect key="frame" x="36" y="25.5" width="179" height="211"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akif Demirezen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EJ-Ga-YT3" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="394.5" y="25.5" width="286.5" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.27235909189179258" green="0.61771436083673559" blue="0.64490426061007955" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="akifdemirezen@hotmail.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLd-dT-PrZ" customClass="CustomLabel" customModule="SolidictMehmetAkifDemirezen" customModuleProvider="target">
+                        <rect key="frame" x="395" y="204.5" width="286.5" height="35.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="NO"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T7U-cm-taC" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.8" id="2vq-I8-xpN"/>
+                    <constraint firstItem="OjI-RV-ZZA" firstAttribute="top" secondItem="zDg-eG-fOG" secondAttribute="bottom" constant="2.5" id="5X1-EV-eBh"/>
+                    <constraint firstItem="umU-Yh-OZ7" firstAttribute="top" secondItem="bbr-Ip-Thk" secondAttribute="bottom" id="5Xg-77-avp"/>
+                    <constraint firstItem="GCE-qb-euF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7fX-I6-smd"/>
+                    <constraint firstItem="zDg-eG-fOG" firstAttribute="height" secondItem="4EJ-Ga-YT3" secondAttribute="height" multiplier="0.8" id="C5Z-O5-C1Z"/>
+                    <constraint firstItem="4EJ-Ga-YT3" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="CHv-wH-WKh"/>
+                    <constraint firstAttribute="bottom" secondItem="GCE-qb-euF" secondAttribute="bottom" id="Fvy-S6-u0q"/>
+                    <constraint firstItem="umU-Yh-OZ7" firstAttribute="width" secondItem="bbr-Ip-Thk" secondAttribute="width" id="HNf-6c-dMP"/>
+                    <constraint firstItem="GCE-qb-euF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JRa-fa-4dO"/>
+                    <constraint firstItem="zDg-eG-fOG" firstAttribute="top" secondItem="4EJ-Ga-YT3" secondAttribute="bottom" multiplier="0.9" id="Kmx-Xo-Icc"/>
+                    <constraint firstItem="4EJ-Ga-YT3" firstAttribute="top" secondItem="T7U-cm-taC" secondAttribute="top" id="NrE-Xo-oKj"/>
+                    <constraint firstItem="pLd-dT-PrZ" firstAttribute="centerX" secondItem="umU-Yh-OZ7" secondAttribute="centerX" id="Q3s-M5-UFK"/>
+                    <constraint firstItem="OjI-RV-ZZA" firstAttribute="width" secondItem="zDg-eG-fOG" secondAttribute="width" id="TXG-4H-Ikk"/>
+                    <constraint firstItem="bbr-Ip-Thk" firstAttribute="width" secondItem="OjI-RV-ZZA" secondAttribute="width" id="USb-aw-ZPS"/>
+                    <constraint firstItem="OjI-RV-ZZA" firstAttribute="height" secondItem="zDg-eG-fOG" secondAttribute="height" multiplier="0.8" id="Ucz-zS-itH"/>
+                    <constraint firstItem="4EJ-Ga-YT3" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.5" id="ViB-wd-0Qj"/>
+                    <constraint firstItem="zDg-eG-fOG" firstAttribute="width" secondItem="4EJ-Ga-YT3" secondAttribute="width" id="VsK-mC-TfR"/>
+                    <constraint firstItem="umU-Yh-OZ7" firstAttribute="centerX" secondItem="bbr-Ip-Thk" secondAttribute="centerX" id="YnM-NT-FkT"/>
+                    <constraint firstItem="pLd-dT-PrZ" firstAttribute="height" secondItem="umU-Yh-OZ7" secondAttribute="height" id="boN-cE-Chc"/>
+                    <constraint firstItem="pLd-dT-PrZ" firstAttribute="top" secondItem="umU-Yh-OZ7" secondAttribute="bottom" id="cD8-BA-xb7"/>
+                    <constraint firstItem="umU-Yh-OZ7" firstAttribute="height" secondItem="bbr-Ip-Thk" secondAttribute="height" multiplier="0.7" id="dZX-FU-ByK"/>
+                    <constraint firstItem="4EJ-Ga-YT3" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.15" id="hju-bR-2z5"/>
+                    <constraint firstItem="bbr-Ip-Thk" firstAttribute="top" secondItem="OjI-RV-ZZA" secondAttribute="bottom" id="kLe-N8-afT"/>
+                    <constraint firstItem="pLd-dT-PrZ" firstAttribute="width" secondItem="umU-Yh-OZ7" secondAttribute="width" id="nCv-ja-wHi"/>
+                    <constraint firstItem="OjI-RV-ZZA" firstAttribute="centerX" secondItem="zDg-eG-fOG" secondAttribute="centerX" id="nyO-A7-ZbB"/>
+                    <constraint firstItem="T7U-cm-taC" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.25" id="oA9-vc-cHR"/>
+                    <constraint firstItem="T7U-cm-taC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qng-UB-AQI"/>
+                    <constraint firstItem="T7U-cm-taC" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="0.35" id="rZK-8P-VBW"/>
+                    <constraint firstItem="bbr-Ip-Thk" firstAttribute="height" secondItem="OjI-RV-ZZA" secondAttribute="height" multiplier="2" id="tIb-Cw-Jdg"/>
+                    <constraint firstItem="bbr-Ip-Thk" firstAttribute="centerX" secondItem="OjI-RV-ZZA" secondAttribute="centerX" id="tpf-YV-cc4"/>
+                    <constraint firstItem="zDg-eG-fOG" firstAttribute="centerX" secondItem="4EJ-Ga-YT3" secondAttribute="centerX" id="vVV-0V-tQZ"/>
+                    <constraint firstAttribute="trailing" secondItem="GCE-qb-euF" secondAttribute="trailing" id="wT1-dQ-e5V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewOfProfile" destination="T7U-cm-taC" id="HBl-ab-0GO"/>
+                <outlet property="labelFullName" destination="4EJ-Ga-YT3" id="la4-T9-Fic"/>
+                <outlet property="labelOfCompany" destination="OjI-RV-ZZA" id="KkH-We-rFf"/>
+                <outlet property="labelOfCompanyAdress" destination="bbr-Ip-Thk" id="V2x-wL-yBt"/>
+                <outlet property="labelOfJob" destination="zDg-eG-fOG" id="BOQ-0G-UdD"/>
+                <outlet property="labelOfMail" destination="pLd-dT-PrZ" id="ldo-2Z-yeC"/>
+                <outlet property="labelOfPhoneNumber" destination="umU-Yh-OZ7" id="Mfz-oU-Ukq"/>
+            </connections>
+            <point key="canvasLocation" x="41.5" y="27"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cellbakcground" width="590" height="300"/>
+        <image name="man" width="256" height="256"/>
+    </resources>
+</document>
